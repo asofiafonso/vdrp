@@ -257,6 +257,8 @@ def allstar(prefix, psf="use.psf", logging=None):
     print("s",s)
     print(50*"=")
 
+    print(os.getcwd())
+
     so, se = proc.communicate(input=s)
     for l in so.split("\n"):
         if logging is not None:
