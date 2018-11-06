@@ -257,7 +257,7 @@ def allstar(prefix, psf="use.psf", logging=None):
     print("s",s)
     print(50*"=")
 
-    print(os.getcwd())
+    print(os.listdir(os.getcwd()))
 
     so, se = proc.communicate(input=s)
     for l in so.split("\n"):
