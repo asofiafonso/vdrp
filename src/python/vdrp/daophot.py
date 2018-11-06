@@ -249,6 +249,14 @@ def allstar(prefix, psf="use.psf", logging=None):
     proc = subprocess.Popen("allstar", stdin=subprocess.PIPE,
                             stdout=subprocess.PIPE)
     s = ALLSTAR_CMD.format(prefix, psf, prefix)
+
+    # print all the variables before goes to the shell
+    print("input_files",input_files)
+    print("prefix",prefix)
+    print("psf",psf)
+    print("s",s)
+    print(50*"=")
+
     so, se = proc.communicate(input=s)
     for l in so.split("\n"):
         if logging is not None:
