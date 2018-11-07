@@ -32,6 +32,7 @@ phot
 """
 
 ALLSTAR_CMD ="""
+
 {}
 {}
 {}.ap
