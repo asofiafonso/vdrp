@@ -31,4 +31,3 @@
 #                 self.assertTrue(exposures_files["exp02"][0] == "20180611T055249_015")
 #             if "exp03" in exposures_files:
 #                 self.assertTrue(exposures_files["exp03"][0] == "20180611T060006_015")
-#
