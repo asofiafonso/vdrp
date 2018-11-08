@@ -17,55 +17,55 @@ from numpy import loadtxt
 from argparse import RawDescriptionHelpFormatter as ap_RDHF
 from argparse import ArgumentParser as AP
 
-#import os
-#import glob
-#import shutil
-#import sys
-#import ConfigParser
-#import logging
-#import subprocess
-#from astropy.io import fits
-#from astropy.io import ascii
-#import tempfile
-#import numpy as np
-#from collections import OrderedDict
-#import pickle
-#import ast
-#import re
-#import inspect
-#
-## import scipy
-#from scipy.interpolate import UnivariateSpline
-#
-#from distutils import dir_util
-#
-#import path
-#from astropy import table
-#from astropy.table import Table
-#
-#from astropy.stats import biweight_location as biwgt_loc
-#from astropy.table import vstack
-#from astropy.io import ascii
-#from astropy.table import Table
-#from astropy.table import Column
-#
-#from pyhetdex.het.fplane import FPlane
-#import pyhetdex.tools.read_catalogues as rc
-#from pyhetdex.het import fplane
-#from pyhetdex.coordinates.tangent_projection import TangentPlane
-#import pyhetdex.tools.read_catalogues as rc
-## from pyhetdex import coordinates
-#from pyhetdex.coordinates import astrometry as phastrom
-#
-#from vdrp.cofes_vis import cofes_4x4_plots
-#from vdrp import daophot
-#from vdrp import cltools
-#from vdrp import utils
-#from vdrp.daophot import DAOPHOT_ALS
-#from vdrp.utils import read_radec, write_radec
-#from vdrp.fplane_client import retrieve_fplane
-#
-#
+import os
+import glob
+import shutil
+import sys
+import ConfigParser
+import logging
+import subprocess
+from astropy.io import fits
+from astropy.io import ascii
+import tempfile
+import numpy as np
+from collections import OrderedDict
+import pickle
+import ast
+import re
+import inspect
+
+# import scipy
+from scipy.interpolate import UnivariateSpline
+
+from distutils import dir_util
+
+import path
+from astropy import table
+from astropy.table import Table
+
+from astropy.stats import biweight_location as biwgt_loc
+from astropy.table import vstack
+from astropy.io import ascii
+from astropy.table import Table
+from astropy.table import Column
+
+from pyhetdex.het.fplane import FPlane
+import pyhetdex.tools.read_catalogues as rc
+from pyhetdex.het import fplane
+from pyhetdex.coordinates.tangent_projection import TangentPlane
+import pyhetdex.tools.read_catalogues as rc
+# from pyhetdex import coordinates
+from pyhetdex.coordinates import astrometry as phastrom
+
+from vdrp.cofes_vis import cofes_4x4_plots
+from vdrp import daophot
+from vdrp import cltools
+from vdrp import utils
+from vdrp.daophot import DAOPHOT_ALS
+from vdrp.utils import read_radec, write_radec
+from vdrp.fplane_client import retrieve_fplane
+
+
 #class VdrpInfo(OrderedDict):
 #    def __init__(self, *args, **kwargs):
 #        super(VdrpInfo, self).__init__(*args, **kwargs)
