@@ -11,7 +11,7 @@ from argparse import Namespace
 from testbase import TestBase
 
 from vdrp import astrometry
-#from vdrp.utils import read_radec
+from vdrp.utils import read_radec
 #from vdrp.astrometry import main
 #import glob
 #import path
