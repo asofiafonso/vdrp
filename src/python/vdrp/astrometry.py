@@ -1,22 +1,22 @@
-##!/usr/bin/env python
-#""" Astrometry routine
-#
-#Module to add astrometry to HETDEX catalgoues and images
-#Contains python translation of Karl Gebhardt
-#
-#.. moduleauthor:: Maximilian Fabricius <mxhf@mpe.mpg.de>
-#"""
-#
-#from __future__ import print_function
-#import matplotlib
-#matplotlib.use("agg")
-#
-#from matplotlib import pyplot as plt
-#
-#from numpy import loadtxt
-#from argparse import RawDescriptionHelpFormatter as ap_RDHF
-#from argparse import ArgumentParser as AP
-#
+#!/usr/bin/env python
+""" Astrometry routine
+
+Module to add astrometry to HETDEX catalgoues and images
+Contains python translation of Karl Gebhardt
+
+.. moduleauthor:: Maximilian Fabricius <mxhf@mpe.mpg.de>
+"""
+
+from __future__ import print_function
+import matplotlib
+matplotlib.use("agg")
+
+from matplotlib import pyplot as plt
+
+from numpy import loadtxt
+from argparse import RawDescriptionHelpFormatter as ap_RDHF
+from argparse import ArgumentParser as AP
+
 #import os
 #import glob
 #import shutil
