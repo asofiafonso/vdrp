@@ -25,8 +25,8 @@ class Test_Get_Exposures_files(TestBase):
              self.assertTrue(("exp01" in exposures_files))
              self.assertTrue(("exp02" in exposures_files))
              self.assertTrue(("exp03" in exposures_files))
-#             if "exp01" in exposures_files:
-#                 self.assertTrue(exposures_files["exp01"][0] == "20180611T054545_015")
+             if "exp01" in exposures_files:
+                 self.assertTrue(exposures_files["exp01"][0] == "20180611T054545_015")
 #             if "exp02" in exposures_files:
 #                 self.assertTrue(exposures_files["exp02"][0] == "20180611T055249_015")
 #             if "exp03" in exposures_files:
