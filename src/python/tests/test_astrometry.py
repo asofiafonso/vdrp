@@ -8,7 +8,7 @@ import path
 import glob
 from argparse import Namespace
 
-#from testbase import TestBase
+from testbase import TestBase
 
 #from vdrp import astrometry
 #from vdrp.utils import read_radec
