@@ -9,4 +9,5 @@ export PATH=$PATH:$PWD/bin:/home/00115/gebhardt/lib/daoprogs/:/home/00115/gebhar
 #python -m unittest tests.test_daophot #6 tests and OK
 #python -m unittest tests.test_astrometry #1 test and OK
 #python -m unittest tests.test_cltools tests.test_daophot #9 tests and ok
-python -m unittest tests.test_cltools tests.test_astrometry #
+#python -m unittest tests.test_cltools tests.test_astrometry #4 tests and OK
+python -m unittest tests.test_daophot tests.test_astrometry #
