@@ -13,8 +13,8 @@ from testbase import TestBase
 from vdrp import astrometry
 from vdrp.utils import read_radec
 from vdrp.astrometry import main
-#import glob
-#import path
+import glob
+import path
 
 # class Test_Get_Exposures_files(TestBase):
 #     ff = ["20180611T054545_015.fits", "20180611T055249_015.fits", "20180611T060006_015.fits"]
